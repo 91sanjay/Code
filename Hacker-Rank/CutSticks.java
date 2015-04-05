@@ -5,7 +5,11 @@ import java.util.List;
 import java.util.Scanner;
 
 public class CutSticks {
-
+	/* Cut Sticks
+	 * Given an array of integers, Subtract the minimum from the entire array elements till its zero.
+	 * At each step return the size of non-zero elements that are being subtracted. Once an element=0
+	 * ignore it.
+	 * */
 	public static void main(String[] args) {
 		Scanner in = new Scanner(System.in);
 		Integer size = in.nextInt();
